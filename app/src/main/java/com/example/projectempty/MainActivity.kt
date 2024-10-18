@@ -67,12 +67,12 @@ fun BasicCompose(
         )
 
         val imageModifier = Modifier
-            .size(400.dp)
+            .size(300.dp)
             .padding(20.dp)
 
 
         Image(
-            painter = painterResource(id = R.drawable.umy),
+            painter = painterResource(id = R.drawable.umy2),
             contentDescription = null,
             modifier = imageModifier
         )//atau ""
@@ -94,11 +94,14 @@ fun BasicCompose(
             text = "20220140095",
             fontSize = 45.sp
         )
+val sizeFoto = Modifier
+    .size(500.dp)
 
         Image(
             painter = painterResource(id = R.drawable.kmti),
             contentDescription = null,
-            modifier = imageModifier
+            modifier = sizeFoto
+
         )
     }
 
