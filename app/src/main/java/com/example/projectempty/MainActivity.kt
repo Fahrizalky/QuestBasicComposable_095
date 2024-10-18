@@ -68,7 +68,7 @@ fun BasicCompose(
 
         Text(
             text = "Ini adalah halaman Login ",
-            fontWeight = FontWeight.Bold,
+            fontWeight = FontWeight.SemiBold,
             fontSize = 25.sp,
         )
 
