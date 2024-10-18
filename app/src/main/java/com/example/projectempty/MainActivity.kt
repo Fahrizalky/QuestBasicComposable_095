@@ -95,9 +95,11 @@ fun BasicCompose(
             fontSize = 45.sp
         )
 
-
-
-
+        Image(
+            painter = painterResource(id = R.drawable.kmti),
+            contentDescription = null,
+            modifier = imageModifier
+        )
     }
 
 }
