@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -21,6 +22,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 import com.example.projectempty.ui.theme.ProjectEmptyTheme
+import androidx.compose.ui.unit.dp
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -64,10 +66,15 @@ fun BasicCompose(
             fontSize = 20.sp,
         )
 
+        val imageModifier = Modifier
+            .size(400.dp)
+            .padding(20.dp)
+
 
         Image(
             painter = painterResource(id = R.drawable.umy),
-            contentDescription = null
+            contentDescription = null,
+            modifier = imageModifier
         )//atau ""
 
 
