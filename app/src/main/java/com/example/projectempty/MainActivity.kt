@@ -52,16 +52,16 @@ fun BasicCompose(
         Text(
             text = "LOGIN ",
             style =  TextStyle(
-                fontSize = 50.sp,
+                fontSize = 70.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Blue,
             )
         )
 
         Text(
-            text = "0",
+            text = "Ini adalah halaman Login ",
             fontWeight = FontWeight.Bold,
-            fontSize = 50.sp,
+            fontSize = 20.sp,
         )
 
         Image(
