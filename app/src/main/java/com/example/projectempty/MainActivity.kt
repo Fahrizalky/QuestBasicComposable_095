@@ -56,7 +56,7 @@ fun BasicCompose(
             style =  TextStyle(
                 fontSize = 70.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color.Blue,
+                color = Color.Black,
             )
         )
 
@@ -88,6 +88,11 @@ fun BasicCompose(
             fontSize = 20.sp,
             fontWeight = FontWeight.Bold,
             color = Color.Red
+        )
+
+        Text(
+            text = "20220140095",
+            fontSize = 45.sp
         )
 
 
