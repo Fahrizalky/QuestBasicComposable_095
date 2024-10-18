@@ -63,7 +63,7 @@ fun BasicCompose(
         Text(
             text = "Ini adalah halaman Login ",
             fontWeight = FontWeight.Bold,
-            fontSize = 20.sp,
+            fontSize = 25.sp,
         )
 
         val imageModifier = Modifier
@@ -76,6 +76,17 @@ fun BasicCompose(
             contentDescription = null,
             modifier = imageModifier
         )//atau ""
+
+        Text(
+            text ="Nama",
+            fontSize = 25.sp
+
+        )
+
+        Text(
+            text = "Fahrizal Kusuma Yuda",
+            fontSize = 20.sp
+        )
 
 
 
