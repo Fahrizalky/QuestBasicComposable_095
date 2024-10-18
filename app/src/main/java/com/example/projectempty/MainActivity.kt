@@ -60,7 +60,7 @@ fun BasicCompose(
         Text(
             text = "Login ",
             style =  TextStyle(
-                fontSize = 70.sp,
+                fontSize = 55.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Black,
             )
