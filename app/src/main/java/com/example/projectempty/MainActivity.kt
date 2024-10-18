@@ -68,7 +68,7 @@ fun BasicCompose(
 
         val imageModifier = Modifier
             .size(300.dp)
-            .padding(15.dp)
+            .padding(top = 40.dp, bottom = 0.dp)
 
 
         Image(
