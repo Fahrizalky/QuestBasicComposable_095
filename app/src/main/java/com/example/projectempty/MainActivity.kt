@@ -52,7 +52,7 @@ fun BasicCompose(
 
     ){
         Text(
-            text = "LOGIN ",
+            text = "Login ",
             style =  TextStyle(
                 fontSize = 70.sp,
                 fontWeight = FontWeight.Bold,
@@ -95,7 +95,7 @@ fun BasicCompose(
             fontSize = 45.sp
         )
 val sizeFoto = Modifier
-    .size(500.dp)
+    .size(600.dp)
 
         Image(
             painter = painterResource(id = R.drawable.kmti),
